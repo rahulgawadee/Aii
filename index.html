@@ -12,24 +12,29 @@
 </head>
 
 <body>
-    <header class="header">
-  <div class="container">
-    <h1 class="logo">Aii Ventures</h1>
-    <button class="menu-toggle" id="menu-toggle">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-    <nav>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#solutions">Solutions</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  <div class="navbar">
+    <div class="container">
+        <div class="logo">
+            <div class="logo-circle">
+                <!-- Replace this with your logo image -->
+                <img src="logo.png" alt="Logo" class="logo-img">
+            </div>
+            <h2>Aii Ventures</h2>
+        </div>
+        <div class="menu-icon" id="menu-icon">
+            &#9776;
+        </div>
+        <div class="nav-elements" id="nav-elements">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 
       
 
@@ -72,79 +77,131 @@
 
 <!-- service-->
 
-
-<section id="services" class="services">
-    <div class="services-container">
-      <h2>Our Services</h2>
-      <div class="service">
-        <h3>AI Consulting</h3>
-        <p>Leverage cutting-edge AI strategies tailored to your business needs.</p>
-      </div>
-      <div class="service">
-        <h3>End-to-End Development</h3>
-        <p>From ideation to implementation, we build scalable and efficient solutions.</p>
-      </div>
-      <div class="service">
-        <h3>Data Analytics</h3>
-        <p>Unlock the power of your data with advanced analytics and insights.</p>
-      </div>
-      <div class="service">
-        <h3>Automation</h3>
-        <p>Optimize processes with intelligent automation to enhance productivity.</p>
-      </div>
+<div class="containered">
+    <div class="OurFormula_sectionHeading">Our Formula</div>
+    <div class="OurFormula_formulaSubHeading">
+        <p>
+            We genuinely listen to your challenges, and our <b>design awareness</b> helps us <b>create</b> and <b>deliver</b> the cutting-edge <b>solutions</b> you need, making all the difference, <b>making it matter!</b>
+        </p>
     </div>
-  </section>
+    
+    <div class="WhatWeDo_whatWeDoContainer page-container">
+        <div class="WhatWeDo_sectionHeading" data-scroll="true">What We Do</div>
+        <div class="WhatWeDo_whatWeDoWrapContainer" id="whatWeDoContainer">
+            <div id="wrapId">
+                <div class="pin-spacer" style="width: 3px; height: 100px; position: absolute;">
+                    <div class="WhatWeDo_scrollElement" id="scrollElement"></div>
+                </div>
+                <div>
+                    <div class="WhatWeDo_whatWeDoWrap isScrollView" data-scroll="true" data-scroll-repeat="true" data-scroll-offset="50%, 50%" data-scroll-position="top" data-scroll-call="0">
+                        <h5>01</h5>
+                        <h3>Strategy</h3>
+                        <div>
+                            <p>We combine all the elements and achieve successful results for our clients. That’s how we create something incredible.</p>
+                        </div>
+                    </div>
+                    <div class="WhatWeDo_whatWeDoWrap isScrollView" data-scroll="true" data-scroll-repeat="true" data-scroll-offset="50%, 50%" data-scroll-position="top" data-scroll-call="1">
+                        <h5>02</h5>
+                        <h3>Design</h3>
+                        <div>
+                            <p>The versatility of design know-how can be put to work in many different ways, and we solve the problem through all of them.</p>
+                        </div>
+                    </div>
+                    <div class="WhatWeDo_whatWeDoWrap isScrollView" data-scroll="true" data-scroll-repeat="true" data-scroll-offset="50%, 50%" data-scroll-position="top" data-scroll-call="2">
+                        <h5>03</h5>
+                        <h3>Code</h3>
+                        <div>
+                            <p>The design needs to be coded to perfection in order to communicate its functionality seamlessly across platforms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div style="height: 350px;"></div>
   
 
 
 
 <!-- Solution-->
 
-
+<!-- Industry-Specific Solutions Section -->
 <section id="solutions" class="solutions">
-    <h2 class="head">Industry-Specific Solutions</h2>
-    <div class="container">
-      
-      <p>Our expertise spans a range of industries, delivering technology-driven solutions tailored to specific needs:</p>
-      <ul class="industry-list">
-        <li class="flex items-center space-x-2">
+  <div class="solutions-container">
+    <h2 class="solutions-title">Industry-Specific Solutions</h2>
+    <p class="solutions-description">We deliver technology-driven solutions tailored to specific industry needs, ensuring innovation and efficiency:</p>
+    <ul class="solutions-list">
+      <li class="solution-item">
+        <div class="icon-wrapper">
           <i class="fas fa-hospital-symbol"></i>
-          <span>Healthcare:</span> Advanced analytics, patient management systems, and AI-assisted diagnostics.
-        </li>
-        <li class="flex items-center space-x-2">
+        </div>
+        <div class="content-wrapper">
+          <h3 class="solution-title">Healthcare</h3>
+          <p class="solution-description">Advanced analytics, patient management systems, and AI-assisted diagnostics.</p>
+        </div>
+      </li>
+      <li class="solution-item">
+        <div class="icon-wrapper">
           <i class="fas fa-wallet"></i>
-          <span>Finance:</span> Fraud detection, automated trading solutions, and secure data management.
-        </li>
-        <li class="flex items-center space-x-2">
+        </div>
+        <div class="content-wrapper">
+          <h3 class="solution-title">Finance</h3>
+          <p class="solution-description">Fraud detection, automated trading solutions, and secure data management.</p>
+        </div>
+      </li>
+      <li class="solution-item">
+        <div class="icon-wrapper">
           <i class="fas fa-store"></i>
-          <span>Retail:</span> Personalized customer experiences, inventory optimization, and e-commerce platforms.
-        </li>
-        <li class="flex items-center space-x-2">
+        </div>
+        <div class="content-wrapper">
+          <h3 class="solution-title">Retail</h3>
+          <p class="solution-description">Personalized customer experiences, inventory optimization, and e-commerce platforms.</p>
+        </div>
+      </li>
+      <li class="solution-item">
+        <div class="icon-wrapper">
           <i class="fas fa-cogs"></i>
-          <span>Manufacturing:</span> Smart factories, predictive maintenance, and supply chain optimization.
-        </li>
-      </ul>
-    </div>
-  </section>
+        </div>
+        <div class="content-wrapper">
+          <h3 class="solution-title">Manufacturing</h3>
+          <p class="solution-description">Smart factories, predictive maintenance, and supply chain optimization.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<hr>
   
-  
+<div class="spectacledcoder-contact" id="contact-div">
+        
+  <form action="" class="spectacledcoder-form">
+      <h1 id="contact">Contact</h1>
+          <div class="spectacledcoder-input">
+              <label id="l-name" class="d-label">Name</label>
+              <input type="text" name="name" id="name" value="" onfocus="labelmove('name')">
+          </div>
+          <div class="spectacledcoder-input">
+              <label id="l-email" class="d-label">Email Address</label>
+              <input type="email" name="email" id="email" onfocus="labelmove('email')">
+          </div>
+          <div class="spectacledcoder-input">
+              <label id="l-sub" class="d-label">Subject</label>
+              <input type="text" name="subject" id="subject" onfocus="labelmove('subject')">
+          </div>
 
+          <div class="spectacledcoder-tarea">
+              <label id="l-tarea" class="d-tarea-label">Message</label>
+              <textarea name="message" id="message" onfocus="labelmove('message')"></textarea>
+          </div>
 
+          <input type="submit" value="Send Message">
 
-  <!-- contact-->
-
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn-primary">Send Message</button>
-      </form>
-    </div>
-  </section>
-  
+  </form>
+</div>
+<hr>
 
 
   <!--footer -->
